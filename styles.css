@@ -73,15 +73,35 @@ section {
 }
 
 
-footer {
-    background-color: #4c93af; 
-    color: white; /* White text for contrast on blue background */
-    text-align: center;
-    padding: 7px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Responsive footer container */
+.footer-container {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  text-align: center;
+  font-size: 0.9rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
+
+.footer-container a {
+  color: #007acc;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    font-size: 0.8rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .footer-container p {
+    margin: 0.5rem 0;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
     body {
