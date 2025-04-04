@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+
+header {
+    background-color: #4CAF50; /* Green header for a fresh look */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #ff6f61, #ff9966);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: #ff6f61;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff9966;
+    color: white;
+}
+
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+header nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a{
+    color: white; /* White text for better contrast on green background */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    color: #222;  /* Darker text for better visibility */
+}
+
+
+section {
+    margin-bottom: 50px; /* Adds spacing between sections */
+    padding: 40px 0;
+}
+
+
+footer {
+    background-color: #4c93af; 
+    color: white; /* White text for contrast on blue background */
+    text-align: center;
+    padding: 7px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust font sizes for readability */
+    }
+    
+    .container {
+        width: 90%; /* Make the layout responsive */
+        margin: auto;
+    }
+
+    nav {
+        flex-direction: column; /* Stack nav links vertically */
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+

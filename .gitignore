@@ -1,0 +1,9 @@
+# Ignore system files and unnecessary folders
+*.log
+*.ini
+*.lnk
+AppData/
+Documents/
+Downloads/
+OneDrive/
+.vscode/
