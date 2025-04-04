@@ -21,7 +21,8 @@ A simple command-line calculator built in Python that performs basic arithmetic 
 
 
 ###  Portfolio Website *(WIP)*
-A personal website designed to showcase my journey, projects, and skills — built with HTML, CSS, and JavaScript.  
+A personal website designed to showcase my journey, projects, and skills — built with HTML, CSS, and JavaScript. 
+https://github.com/KendiStar/MyPortfolioFeb2025Hackathon.git
  
 
 ---
